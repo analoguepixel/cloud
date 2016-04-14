@@ -13,14 +13,8 @@ exports.sessionSecret = 'bunnyslippers';
 exports.rootUrl   = '/lesae';
 exports.userUrl   = '/user';
 
+// TODO: DO NOT STORE PASSWORDS
 exports.users =
-  {gfoust: {name: 'Gabriel Foust',
-            password: 'secret'
-           },
-   john:   {name: 'John Doe',
-            password: 'turnip'
-           },
-   jane:   {name: 'Jane Roe',
-            password: 'jingle'
-           }
+  {jryan: {name: 'Jack Ryan',
+           password: 'secret'}
   };
